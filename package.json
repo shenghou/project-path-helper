@@ -1,5 +1,5 @@
 {
-  "name": "magic",
+  "name": "project-path-helper",
   "version": "1.0.0",
   "description": "get dependency and call back what you want",
   "main": "index.js",
