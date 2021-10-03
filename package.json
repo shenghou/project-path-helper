@@ -1,0 +1,27 @@
+{
+  "name": "magic",
+  "version": "1.0.0",
+  "description": "get dependency and call back what you want",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "dependecy",
+    "tree"
+  ],
+  "author": "lomean <hou993268@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commondir": "^1.0.1",
+    "debug": "^4.3.2",
+    "dependency-tree": "^8.1.1",
+    "fs": "0.0.1-security",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "util": "^0.12.4",
+    "walkdir": "^0.4.1"
+  }
+}
