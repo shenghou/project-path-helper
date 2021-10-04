@@ -218,7 +218,7 @@ class Tree {
         const callKey = item.key;
         const callValue = item.callback(path);
         // Filte default key
-        if (String(callKey) === 'name' || String(callKey) === 'path' || String(callKey) === 'child') {
+        if (['name', 'path', 'child'].includes(String(callKey))) {
           return;
         }
         baseResultData[callKey] = callValue;
