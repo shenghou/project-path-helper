@@ -217,6 +217,10 @@ class Tree {
       this.config.callbackFunctions.forEach((item) => {
         const callKey = item.key;
         const callValue = item.callback(path);
+        // Filte default key
+        if (String(callKey) === 'name' || String(callKey) === 'path' || String(callKey) === 'child') {
+          return;
+        }
         baseResultData[callKey] = callValue;
       });
     }
