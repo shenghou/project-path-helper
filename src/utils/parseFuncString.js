@@ -1,3 +1,7 @@
+const { parse } = require('esprima');
+const ensureArray = require('ensure-array');
+
+
 /**
  *  @description parse func
  */
