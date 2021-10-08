@@ -10,7 +10,7 @@
 # Installation
 
 ```sh
-// TODO
+# TODO
 npm -g install project-path-helper
 ```
 
